@@ -1,0 +1,161 @@
+#navBack{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgb(8, 8, 8);
+}
+#offCan{
+  display: none;
+  background-color: rgba(240, 255, 255, 0);
+}
+.offcanvas{
+  height: 80rem;
+}
+@media (max-width: 470px){
+  #offCan{
+      display: block;
+  }
+}
+@media (max-width: 991px){
+  #offCan{
+      display: block;
+  }
+}
+#navList{
+  margin-left: 30px;
+}
+.dropdown-menu{
+  width: 20rem;
+  height: auto;
+}
+#CanBack{
+  background-color: rgba(255, 228, 196, 0);
+}
+
+/********FIRST CONT */
+#firstCont{
+    margin-top: 60px;
+}
+#firstCont h1{
+    font-size: 40px;
+    font-family: "Protest Strike", sans-serif;
+}
+#firstCont p{
+    line-height: 35px;
+}
+.line{
+    text-align: justify;
+    line-height: 35px;
+}
+
+#secondCard1{
+    flex-wrap: wrap;
+}
+#secondCard2{
+    background-color: rgba(245, 245, 220, 0);
+}
+.line1{
+    line-height: 30px;
+}
+
+ /*********FOR IMAGE ZOOMING***/
+ .image-container {
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+
+.quote{
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(39, 38, 38);
+}
+.quote:hover{
+    transition: .7s;
+    background-color: rgb(156, 156, 156);
+}
+
+ /**********FOOTER**********/
+ #futaT p{
+  text-align: justify;
+}
+#footerDropdown{
+  font-size: 17px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+.dropSVG1{
+  margin-left: 270px;
+}
+.dropSVG{
+  margin-left: 155px;
+}
+.dropSVG2{
+  margin-left: 220px;
+}
+.dropSVG3{
+  margin-left: 195px;
+}
+.dropSVG4{
+  margin-left: 230px;
+}
+#drpDown{
+  width: 23rem;
+}
+#footer1 img{
+  border-radius: 10px;
+}
+#footer2{
+  display: none;
+}
+
+#footer2 img{
+  border-radius: 10px;
+}
+@media (max-width: 470px){
+  #footer2{
+    display: block;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  #footer1{
+    display: none;
+  }
+}
+#d-flex{
+  flex-wrap: wrap;
+}
+#lastFut{
+  flex-wrap: wrap;
+}
+
+#strollUp{
+  box-shadow: 2px 2px 4px black;
+}
+#stroll{
+  z-index: 1;
+}
+
+
+/*******ANIMATIONA****/
+@keyframes gifted{
+  0%{
+      opacity: 0;
+      transform: translateY(30px) scale(0.2);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+  }
+}

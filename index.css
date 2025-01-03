@@ -1,0 +1,295 @@
+#navBack{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+#offCan{
+    display: none;
+    background-color: rgba(240, 255, 255, 0);
+}
+@media (max-width: 470px){
+    #offCan{
+        display: block;
+    }
+}
+@media (max-width: 991px){
+    #offCan{
+        display: block;
+    }
+}
+#navList{
+    margin-left: 30px;
+}
+.dropdown-menu{
+    width: 20rem;
+    height: auto;
+}
+#CanBack{
+  background-color: rgba(255, 228, 196, 0);
+}
+.offcanvas{
+    height: 80rem;
+}
+
+
+#firstCaro{
+    margin-top: -140px;
+    flex-wrap: wrap;
+}
+#expe{
+    background-color: rgba(245, 244, 244, 0);
+}
+
+#expe2{
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.expeH{
+    /* font-style: italic; */
+    margin-top: 150px;
+    font-size: 55px;
+    font-family: "Protest Strike", sans-serif;
+    /* font-weight: bold; */
+    animation: gifted 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+.expeS{
+  color: rgb(0, 63, 145);
+}
+@media (max-width: 470px){
+    .expeH{
+        font-size: 45px;
+    }
+}
+.expeP{
+    text-align: justify;
+
+}
+#trans{
+    border: 0px;
+    background-color: rgba(245, 245, 220, 0);
+    border-bottom: 2px solid black;
+}
+
+.we{
+  font-family: "Protest Strike", sans-serif;
+}
+
+/**********PROFFESIONAL CONTAINER */
+#piano{
+    flex-wrap: wrap;
+}
+.pianoB{
+  display: none;
+}
+
+@media (max-width: 470px){
+  .pianoA{
+    display: none;
+} 
+.pianoB{
+  display: block;
+}
+}
+.just{
+    text-align: justify;
+}
+#tran1{
+    background-color: rgba(0, 255, 255, 0);
+}
+#btn button{
+  border-radius: 10px;
+  background-color: black;
+}
+#btn button:hover{
+  transition: .5s;
+  background-color: rgb(172, 169, 169);
+}
+#profA {
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 34);
+}
+#profA:hover{
+    background-color: rgb(138, 136, 136);
+}
+
+
+
+  /*********FOR IMAGE ZOOMING***/
+  .image-container {
+    /* width: 100%;
+    height: auto; */
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+
+/**********TOP CONTAINER*******/
+#topFlex{
+    flex-wrap: wrap;
+    border-radius: 30px;
+}
+.top{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#transs1{
+    background-color: rgba(240, 248, 255, 0);
+}
+/*************REVIEW CONTAINER******/
+#review{
+    flex-wrap: wrap;
+    display: block;
+}
+#review2{
+    margin-top: 70px;
+    display: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+@media (max-width: 470px){
+    .review{
+        display: none;
+    }
+    #review2{
+        display: block;
+    }
+}
+#transs{
+    background-color: rgba(240, 248, 255, 0);
+}
+
+#playing{
+    height: fit-content;
+    background-image: url(Images/playing\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#playingInn{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(143, 91, 27, 0.493);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.playingH{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+@media (max-width: 470px){
+  .playingH{
+    text-align: justify;
+    font-size: 35px;
+}
+}
+
+#addressFlex{
+    flex-wrap: wrap;
+}
+#map{
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(240, 255, 255, 0);
+  }
+  .contact1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  
+  #social i{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+
+  .AdressH{
+    font-size: 35px;
+    font-family: "Protest Strike", sans-serif;
+  }
+ /**********FOOTER**********/
+ #futaT p{
+    text-align: justify;
+}
+ #footerDropdown{
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 20px;
+  }
+  .dropSVG1{
+    margin-left: 270px;
+  }
+  .dropSVG{
+    margin-left: 155px;
+  }
+  .dropSVG2{
+    margin-left: 220px;
+  }
+  .dropSVG3{
+    margin-left: 195px;
+  }
+  .dropSVG4{
+    margin-left: 230px;
+  }
+  #drpDown{
+    width: 23rem;
+  }
+  #footer1 img{
+    border-radius: 10px;
+  }
+  #footer2{
+    display: none;
+  }
+
+  #footer2 img{
+    border-radius: 10px;
+  }
+  @media (max-width: 470px){
+    #footer2{
+      display: block;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+    #footer1{
+      display: none;
+    }
+  }
+  #d-flex{
+    flex-wrap: wrap;
+  }
+  #lastFut{
+    flex-wrap: wrap;
+  }
+  
+  #strollUp{
+    box-shadow: 2px 2px 4px black;
+  }
+  #stroll{
+    z-index: 1;
+  }
+
+
+  /*******ANIMATIONA****/
+  @keyframes gifted{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.2);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }

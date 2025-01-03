@@ -1,0 +1,139 @@
+#navBack{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px rgb(8, 8, 8);
+}
+#offCan{
+  display: none;
+  background-color: rgba(240, 255, 255, 0);
+}
+.offcanvas{
+  height: 80rem;
+}
+@media (max-width: 470px){
+  #offCan{
+      display: block;
+  }
+}
+@media (max-width: 991px){
+  #offCan{
+      display: block;
+  }
+}
+#navList{
+  margin-left: 30px;
+}
+.dropdown-menu{
+  width: 20rem;
+  height: auto;
+}
+#CanBack{
+  background-color: rgba(255, 228, 196, 0);
+}
+
+#quoteCont h1{
+  font-size: 40px;
+  font-family: "Protest Strike", sans-serif;
+}
+#formRound{
+    border-radius: 20px;
+}
+
+#addressFlex{
+  flex-wrap: wrap;
+}
+#map{
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(240, 255, 255, 0);
+}
+.contact1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#social i{
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.AdressH{
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+ /**********FOOTER**********/
+ #futaT p{
+  text-align: justify;
+}
+#footerDropdown{
+  font-size: 17px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+.dropSVG1{
+  margin-left: 270px;
+}
+.dropSVG{
+  margin-left: 155px;
+}
+.dropSVG2{
+  margin-left: 220px;
+}
+.dropSVG3{
+  margin-left: 195px;
+}
+.dropSVG4{
+  margin-left: 230px;
+}
+#drpDown{
+  width: 23rem;
+}
+#footer1 img{
+  border-radius: 10px;
+}
+#footer2{
+  display: none;
+}
+
+#footer2 img{
+  border-radius: 10px;
+}
+@media (max-width: 470px){
+  #footer2{
+    display: block;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
+  #footer1{
+    display: none;
+  }
+}
+#d-flex{
+  flex-wrap: wrap;
+}
+#lastFut{
+  flex-wrap: wrap;
+}
+
+#strollUp{
+  box-shadow: 2px 2px 4px black;
+}
+#stroll{
+  z-index: 1;
+}
+
+
+/*******ANIMATIONA****/
+@keyframes gifted{
+  0%{
+      opacity: 0;
+      transform: translateY(30px) scale(0.2);
+  }
+  100%{
+      opacity: 1;
+      transform: translateY(0px) scale(1);
+  }
+}

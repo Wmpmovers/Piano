@@ -1,0 +1,245 @@
+#navBack{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgb(8, 8, 8);
+}
+#offCan{
+    display: none;
+    background-color: rgba(240, 255, 255, 0);
+}
+.offcanvas{
+    height: 80rem;
+}
+@media (max-width: 470px){
+    #offCan{
+        display: block;
+    }
+}
+@media (max-width: 991px){
+    #offCan{
+        display: block;
+    }
+}
+#navList{
+    margin-left: 30px;
+}
+.dropdown-menu{
+    width: 20rem;
+    height: auto;
+}
+
+
+#firstCaro{
+    margin-top: -120px;
+    flex-wrap: wrap;
+}
+
+#aboutCont{
+    flex-wrap: wrap;
+    margin-top: -150px;
+}
+.aboutH{
+    margin-top: 170px;
+    font-family: "Protest Strike", sans-serif;
+    animation: gifted 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+.aboutP{
+    text-align: justify;
+    line-height: 30px;
+}
+#CanBack{
+    background-color: rgba(255, 228, 196, 0);
+}
+.aboutImg{
+    margin-top: 150px;
+}
+@media (max-width: 470px){
+    .aboutImg{
+        margin-top: 70px;
+    }
+}
+
+#aboutCard{
+    background-color: rgba(245, 244, 244, 0.007);
+}
+#aboutcard2{
+    background-color: rgba(240, 255, 255, 0);
+}
+#aboutcard2 h1{
+    font-family: "Protest Strike", sans-serif;
+}
+.testimoH{
+    font-family: "Protest Strike", sans-serif;
+}
+
+#testiCont{
+    flex-wrap: wrap;
+}
+#testiCard{
+    border: 0px;
+    background-color: rgba(240, 255, 255, 0);
+}
+#testiCard:hover{
+    border-bottom: 2px solid black;
+}
+.testiP{
+    text-align: justify;
+}
+/************TEAM************/
+#team{
+    flex-wrap: wrap;
+}
+
+#team1{
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(245, 245, 220, 0);
+    border: 1px dotted blue;
+}
+  /*********FOR IMAGE ZOOMING***/
+  .image-container {
+    border-radius: 10px;
+    overflow: hidden; /* Ensures the image doesn't overflow the container */
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;     /* Makes the image responsive */
+    height: auto;    /* Keeps the aspect ratio */
+    transition: transform 0.5s ease; /* Smooth transition */
+}
+
+.image-container:hover img {
+    transform: scale(1.2); /* Zoom in on hover */
+}
+
+#journey{
+    margin-top: 50px;
+    padding: 100px;
+    height: 40rem;
+    background-image: url(../Images/Journey.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#journey1{
+    width: 50rem;
+    margin-top: 100px;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0);
+}
+@media (max-width: 991px){
+    #journey{
+        height: 27rem;
+        background-size: 800px;
+    }
+    #journey1{
+        margin-top: 50px;
+        width: 100rem;
+    }
+    #journey1 h1{
+        width: 25rem;
+    }
+}
+#journey1 h1{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.teamReso{
+    margin-top: 50px;
+    display: none;
+}
+@media (max-width: 991px){
+    .teamReso{
+        display: block;
+    }
+    .containerTeam{
+        display: none;
+    }
+}
+
+.testimoO{
+    line-height: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+ /**********FOOTER**********/
+ #futaT p{
+    text-align: justify;
+}
+ #footerDropdown{
+    font-size: 17px;
+    padding: 10px 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    margin-top: 20px;
+  }
+  .dropSVG1{
+    margin-left: 270px;
+  }
+  .dropSVG{
+    margin-left: 155px;
+  }
+  .dropSVG2{
+    margin-left: 220px;
+  }
+  .dropSVG3{
+    margin-left: 195px;
+  }
+  .dropSVG4{
+    margin-left: 230px;
+  }
+  #drpDown{
+    width: 23rem;
+  }
+  #footer1 img{
+    border-radius: 10px;
+  }
+  #footer2{
+    display: none;
+  }
+
+  #footer2 img{
+    border-radius: 10px;
+  }
+  @media (max-width: 470px){
+    #footer2{
+      display: block;
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+    #footer1{
+      display: none;
+    }
+  }
+  #d-flex{
+    flex-wrap: wrap;
+  }
+  #lastFut{
+    flex-wrap: wrap;
+  }
+  
+  #strollUp{
+    box-shadow: 2px 2px 4px black;
+  }
+  #stroll{
+    z-index: 1;
+  }
+
+
+  /*******ANIMATIONA****/
+  @keyframes gifted{
+    0%{
+        opacity: 0;
+        transform: translateY(30px) scale(0.2);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+  }
